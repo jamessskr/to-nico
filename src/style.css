@@ -26,6 +26,10 @@
 
 /*     최종과제용     */
 
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
 .container {
     display: flex;
     flex-direction: column;
