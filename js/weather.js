@@ -24,5 +24,3 @@ function onGeoError() {
 
 
 navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError)
-
-console.log(wNumber)

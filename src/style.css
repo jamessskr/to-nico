@@ -1,5 +1,5 @@
 .hidden {
-    display: none!important;
+    display: none !important;
 }
 
 .visible {
@@ -100,6 +100,14 @@ body {
     color: rgb(219, 219, 219);
 }
 
+@media screen and (max-width: 500px) {
+    .quote {
+        font-size: 12px;
+    }
+    .auther {
+        font-size: 12px;
+    }
+}
 
 h4 {
     margin: 0;
