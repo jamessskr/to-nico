@@ -1,5 +1,6 @@
 const contentLogin = document.querySelector(".contentLogin")
 const content = document.querySelector(".content")
+const topContent = document.querySelector(".top")
 
 const loginForm = document.querySelector("#loginForm")
 const loginInput = document.querySelector("#loginInput")
@@ -14,6 +15,7 @@ function handleLogin(e) {
     contentLogin.classList.add(HIDDEN_CLASS);
     greetingMSG.innerText = `Hello, ${username}`;
     content.classList.remove(HIDDEN_CLASS);
+    topContent.classList.remove(HIDDEN_CLASS);
     bgRandom()
 }
 
@@ -28,5 +30,6 @@ if (savedUsername === null) {
     greetingMSG.innerText = `Hello again, ${savedUsername} 🌞`;
     content.classList.remove(HIDDEN_CLASS);
     contentLogin.classList.add(HIDDEN_CLASS);
+    topContent.classList.remove(HIDDEN_CLASS);
     bgRandom();
 }
